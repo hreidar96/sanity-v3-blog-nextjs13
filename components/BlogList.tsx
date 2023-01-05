@@ -17,10 +17,11 @@ export default function BlogList({ posts }: Props) {
             <div className="flex flex-col group cursor-pointer">
               <div className="relative w-full h-80 drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out">
                 <Image
-                  className="object-cover object-left lg:object-center"
+                  className=" max-w-full h-auto object-cover lg:object-center"
                   src={urlFor(post.mainImage).url()}
                   alt={post.author.name}
                   fill
+                  priority
                 />
                 <div className="absolute bottom-0 w-full bg-opacity-20 bg-black backdrop-blur-lg rounded drop-shadow-lg text-white p-5 flex justify-between">
                   <div>
