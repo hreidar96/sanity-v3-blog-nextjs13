@@ -10,8 +10,9 @@ function Header() {
             src="https://links.papareact.com/1m8"
             width={50}
             height={50}
-            className="rounded-full"
+            className="rounded-full scale-100"
             alt="logo"
+            priority
           />
         </Link>
         <h1>Hreiðar's Blog</h1>
@@ -19,9 +20,9 @@ function Header() {
       <div>
         <Link
           href="/"
-          className=" px-5 py-3 text-sm md:text-base bg-gray-900 text-[#F7AB0A] flex items-center rounded-full text-center"
+          className="text-xs md:text-base bg-gray-900 text-[#F7AB0A] flex items-center text-center px-6 py-2.5 font-medium leading-tight uppercase rounded-full shadow-md hover:bg-gray-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
         >
-          Sign Up To My Newsletter!
+          Fá fréttir í tölvupóst!
         </Link>
       </div>
     </header>

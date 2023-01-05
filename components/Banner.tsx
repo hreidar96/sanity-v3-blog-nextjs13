@@ -5,7 +5,7 @@ function Banner() {
     <div className="flex flex-col lg:flex-row lg:space-x-5 justify-between font-bold px-10 py-5 mb-10">
       <div>
         <Link href="/">
-          <h1 className="text-7xl">Tæknifréttir</h1>
+          <h1 className="text-5xl">Tæknifréttir</h1>
           <h2 className="mt-5 md:mt-0">
             Velkomin á{" "}
             <span className="underline decoration-3 decoration-[#F7AB0A]">
